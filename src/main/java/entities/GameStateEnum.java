@@ -1,4 +1,7 @@
 package entities;
 
-public class GameStateEnum {
+public enum GameStateEnum {
+    NOT_STARTED,
+    RUNNING,
+    FINISED
 }

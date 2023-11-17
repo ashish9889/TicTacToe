@@ -1,8 +1,8 @@
 package entities;
 
-import java.util.List;
+public interface Board {
 
-public class Board {
-    List<List<Cell>> cells;
-    int dimension;
+    boolean registerMove(Move move);
+
+    Cell getCell(Cell cell);
 }
